@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO优化点 -->
+    <title>Private Text Compare Tool - Free & Secure Diff Checker</title>
+    <meta name="description" content="Securely compare two texts to find differences. Our tool works 100% in your browser. No data is uploaded, ensuring your privacy.">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入jsdiff库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsdiff/5.1.0/diff.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <!-- SEO优化点 -->
+    <h1>Privacy-First Text Difference Checker</h1>
+    <p class="subtitle">Your text is safe. All comparisons happen directly in your browser.</p>
+
+    <div class="diff-container">
+        <div class="panel">
+            <h2>Original Text</h2>
+            <textarea id="text1" placeholder="Paste the original text here..."></textarea>
+        </div>
+        <div class="panel">
+            <h2>Changed Text</h2>
+            <textarea id="text2" placeholder="Paste the changed text here..."></textarea>
+        </div>
+    </div>
+
+    <button id="compareBtn">Compare Texts</button>
+
+    <div class="results-container">
+        <h2>Differences</h2>
+        <div id="result"></div>
+    </div>
+
+    <!-- SEO优化点：内容为王 -->
+    <div class="content-section">
+        <h2>How It Works & Your Privacy Guarantee</h2>
+        <p>This tool uses the powerful jsdiff library to compare texts directly on your device. When you paste your text and click 'Compare', our code runs locally in your browser. <strong>Your data never leaves your computer and is never sent to our servers.</strong> This makes it the perfect tool for comparing sensitive documents, code, or private notes.</p>
+        <h3>Use Cases:</h3>
+        <ul>
+            <li><strong>Writers & Editors:</strong> Track changes between different drafts of an article or book.</li>
+            <li><strong>Developers:</strong> Quickly check differences in code snippets without using command-line tools.</li>
+            <li><strong>Legal Professionals:</strong> Compare contract versions to spot subtle modifications.</li>
+            <li><strong>Students:</strong> Review revisions made to your essays or reports.</li>
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
